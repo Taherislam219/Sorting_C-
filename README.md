@@ -1,31 +1,32 @@
-# Sorting Algorithms
+# Sorting Algorithms in C++
 
-This repository contains the sorting algorithms I have practiced while learning Data Structures and Algorithms (DSA) using C++.
+A collection of C++ practice programs implementing common sorting algorithms while learning Data Structures and Algorithms (DSA).
 
-## Algorithms
+## Algorithms Included
 
-- **Bubble Sort** – Compares adjacent elements and swaps them if needed.
-- **Selection Sort** – Finds the smallest element and puts it in the correct position.
-- **Insertion Sort** – Inserts each element into its correct position.
-- **Merge Sort** – Divides the array into smaller parts and merges them in sorted order.
-- **Quick Sort** – Uses a pivot to divide the array and sort it.
-- **Binary Search** – Searches for an element in a sorted array. This is included in my Bubble Sort program.
+- **Bubble Sort** — compares adjacent elements and swaps them when needed.
+- **Selection Sort** — repeatedly selects the smallest remaining element.
+- **Insertion Sort** — inserts each element into its correct position.
+- **Merge Sort** — divides the array and merges sorted parts.
+- **Quick Sort** — partitions elements around a pivot and sorts the partitions.
 
-## What I Learned
+The Bubble Sort source file also includes a binary-search example, according to the current repository README.
 
-While writing these programs, I practiced arrays, functions, loops, recursion, sorting techniques, and searching.
+## Requirements
 
-## How to Run
+- A C++ compiler such as `g++`
 
-You need a C++ compiler, such as `g++`.
+## Run an Example
 
-For example, to run Bubble Sort on Windows:
+Because some filenames contain spaces, put the filename in quotation marks:
 
 ```bash
-g++ "Bubble sort.cpp" -o bubble_sort.exe
-bubble_sort.exe
+g++ "Bubble sort.cpp" -o bubble_sort
+./bubble_sort
 ```
 
-You can use the same process for the other `.cpp` files by changing the filename.
+Repeat with another `.cpp` filename to run a different program. On Windows, run the generated executable, such as `bubble_sort.exe`.
 
-This repository is part of my practice and learning in C++ and DSA.
+## What I Practice
+
+These programs help me practice arrays, loops, functions, recursion, sorting techniques, and searching. This repository will grow as I continue learning C++ and DSA.
